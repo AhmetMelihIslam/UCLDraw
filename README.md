@@ -29,7 +29,7 @@ There are two rules to keep in mind when watching the draw.
 
 Besides, clubs from Ukraine cannot play against Russian clubs.
 
-There are 2 java files and 3 text files in this project:
+There are 2 java files and 2 text files in this project:
 - Club.java, the implementation of a football club
 - Draw16.java, the main part of our algorithm, which find all possible results with recursive backtracking, export these result into a text file, calculate and print out the probability distribution.
 - draws.txt, all possible results of UCL Draw
