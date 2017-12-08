@@ -20,7 +20,7 @@ The runner-ups from the group stage are:
 (D) Juventus, Italy
 (E) Sevilla, Spain
 (F) Shakhtar Donetsk, Ukraine
-(G) Porto, Portual
+(G) Porto, Portugal
 (H) Real Madrid, Spain
 
 There are two rules to keep in mind when watching the draw.
