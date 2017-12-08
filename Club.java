@@ -21,7 +21,7 @@ public class Club {
 	
         // Return true if it is possible to play against other club in the round of 16
         // otherwise return false
-	public boolean hasConflictWith(Club other) {
+	public boolean canPlayAgainst(Club other) {
 		if (this.nation.equals(other.nation)) {
 			return false;
 		}
