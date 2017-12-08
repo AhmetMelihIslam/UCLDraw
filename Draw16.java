@@ -1,13 +1,13 @@
 import java.util.*;
 import java.io.*;
 
-public class UEFA16 {
+public class Draw16 {
 	LinkedList<Club> pool1; 
 	LinkedList<Club> pool2;
 	int sum;
 	
 	// Post: create a new instance
-	public UEFA16() {
+	public Draw16() {
 		this.pool1 = new LinkedList<Club>();
 		this.pool2 = new LinkedList<Club>();
 		this.sum = 0;
@@ -38,6 +38,8 @@ public class UEFA16 {
 		
 		pool1.add(new Club("Tottenham", "England", 1, 'H'));
 		pool2.add(new Club("RealMadrid", "Spain", 2, 'H'));
+		
+		
 	}
 	
 	// Post: explore all possible combinations and print out with the given output PrintStream
@@ -110,10 +112,10 @@ public class UEFA16 {
 	
 	// Post: for testing and printing
 	public static void main(String[] args) throws FileNotFoundException {
-		UEFA16 uefa = new UEFA16();
-		uefa.getData();
-		File ballot = new File("Draw2017UEFA16.txt");
-		uefa.draw(new PrintStream(ballot));
-		uefa.printProb(ballot);
+		Draw16 obj = new Draw16();
+		obj.getData();
+		File ballot = new File("draws.txt");
+		obj.draw(new PrintStream(ballot));
+		obj.printProb(ballot);
 	}
 }
